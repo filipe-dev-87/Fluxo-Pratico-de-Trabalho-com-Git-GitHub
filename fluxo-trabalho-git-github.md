@@ -1,9 +1,8 @@
 Passo a passo — raciocínio por trás do Fluxo Prático de Trabalho com Git/GitHub
 
-Vou explicar por que cada comando existe, o que ele faz internamente e boas práticas ao usá-lo.
+Por que cada comando existe, o que ele faz internamente e boas práticas ao usá-lo.
 
 1. git init
-   git init
 
 O que acontece: cria a pasta .git (o repositório local) e inicializa os metadados do Git.
 Por quê: transforma a pasta do seu projeto em um repositório versionado — agora o Git pode rastrear mudanças.
