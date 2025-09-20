@@ -1,6 +1,6 @@
-Fluxo Prático de Trabalho com Git/GitHub
+# Fluxo Prático de Trabalho com Git/GitHub
 
-Um guia rápido e direto para gerenciar seu código como um profissional: do início do repositório até o versionamento de features.
+## Um guia rápido e direto para gerenciar seu código como um profissional: do início do repositório até o versionamento de features.
 
 📦 git init – Inicializa um repositório Git local.
 “Seu projeto começa aqui!”
