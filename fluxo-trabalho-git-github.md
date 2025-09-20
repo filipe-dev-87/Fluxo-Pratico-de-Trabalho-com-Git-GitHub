@@ -1,6 +1,6 @@
 # Passo a passo — raciocínio por trás do Fluxo Prático de Trabalho com Git/GitHub
 
-# Por que cada comando existe, o que ele faz internamente e boas práticas ao usá-lo.
+## Por que cada comando existe, o que ele faz internamente e boas práticas ao usá-lo.
 
 ## 1. git init
 
