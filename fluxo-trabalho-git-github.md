@@ -46,7 +46,7 @@ Se precisar ajustar o último commit (ex.: mensagem ou incluir arquivo esquecido
 
 git remote add origin git@github.com:usuario/repositorio.git
 
-# ou
+## ou
 
 git remote add origin https://github.com/usuario/repositorio.git
 
@@ -66,7 +66,7 @@ Observação: se o remoto já tiver commits divergentes, o push pode falhar — 
 
 git checkout -b nova-feature
 
-# (alternativa moderna) git switch -c nova-feature
+## (alternativa moderna) git switch -c nova-feature
 
 O que acontece: cria e muda para a branch nova-feature. A partir daqui os commits ficam isolados dessa branch.
 Por quê: isolar desenvolvimento de uma feature evita quebrar o código principal (main) e facilita revisão/rollback.
@@ -85,7 +85,7 @@ git push -u origin nova-feature
 git checkout main
 git merge nova-feature
 
-# ou preferencialmente faça via Pull Request na plataforma (GitHub)
+## ou preferencialmente faça via Pull Request na plataforma (GitHub)
 
 O que acontece: integra os commits da branch nova-feature à main.
 Por quê: incorpora a feature testada para o ramo estável.
@@ -102,7 +102,7 @@ git push origin --delete nova-feature # deleta remoto
 
 ## 10. git pull
 
-# ou (recomendado em muitos fluxos) git pull --rebase
+## ou (recomendado em muitos fluxos) git pull --rebase
 
 O que acontece: faz fetch do remoto e depois merge (padrão) com sua branch local.
 Por quê: mantém seu repositório local sincronizado com mudanças de colegas.
@@ -125,18 +125,18 @@ git log --oneline --graph --decorate --all — visão compacta do histórico com
 
 Essas ferramentas ajudam a entender o que vai para o commit e o histórico do projeto.
 
-# Boas práticas resumidas
+## Boas práticas resumidas
 
-## Faça commits pequenos e temáticos.
+### Faça commits pequenos e temáticos.
 
-## Mensagens claras (imperativo).
+### Mensagens claras (imperativo).
 
-## Puxe (pull) antes de começar uma nova feature.
+### Puxe (pull) antes de começar uma nova feature.
 
-## Prefira PRs (pull requests) para revisões e CI antes de merge.
+### Prefira PRs (pull requests) para revisões e CI antes de merge.
 
-## Proteja main com regras (merge via PR, testes obrigatórios).
+### Proteja main com regras (merge via PR, testes obrigatórios).
 
-## Use git stash para salvar mudanças rápidas sem commitar.
+### Use git stash para salvar mudanças rápidas sem commitar.
 
-## Limpe branches remotas obsoletas: git fetch --prune.
+### Limpe branches remotas obsoletas: git fetch --prune.
